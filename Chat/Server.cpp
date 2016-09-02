@@ -17,7 +17,7 @@ void main()
 		MessageBoxA(NULL, "Winsock startup failed", "Error", MB_OK | MB_ICONERROR);
 		exit(1);
 	}
-
+	 
 	SOCKADDR_IN addr;
 	int addrlen = sizeof(addr);
 	addr.sin_addr.s_addr = inet_addr("94.212.164.111");
